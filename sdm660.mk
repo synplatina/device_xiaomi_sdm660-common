@@ -404,8 +404,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk-ext \
-    vndk_package
+    vndk-ext
 
 # Wifi
 PRODUCT_PACKAGES += \
