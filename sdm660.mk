@@ -157,10 +157,6 @@ PRODUCT_PACKAGES += \
     libdng_sdk.vendor \
     vendor.qti.hardware.camera.device@1.0:64
 
-# Configstore
-PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.0-service
-
 # Consumerir
 ifneq ($(BOARD_HAVE_IR), false)
 PRODUCT_PACKAGES += \
