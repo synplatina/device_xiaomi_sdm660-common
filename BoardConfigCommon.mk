@@ -120,9 +120,6 @@ ifneq ($(BOARD_HAVE_IR), false)
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/manifests/manifest-ir.xml
 endif
 
-# Keystore
-TARGET_PROVIDES_KEYMASTER := true
-
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x04000000
