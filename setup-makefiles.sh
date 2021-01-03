@@ -24,7 +24,7 @@ source "${HELPER}"
 # Initialize the helper for common
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${ANDROID_ROOT}" true
 
-# Copyright headers and guards
+# Warning headers and guards
 write_headers "jasmine_sprout jason lavender platina twolip wayne whyred"
 
 # The standard common blobs
