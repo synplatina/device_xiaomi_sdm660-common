@@ -41,6 +41,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_NEW_GCC_COMPILE := true
 
+# LMKD stats logging
+TARGET_LMKD_STATS_LOG := true
+
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 

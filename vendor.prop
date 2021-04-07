@@ -141,6 +141,11 @@ persist.dbg.wfc_avail_ovr=1
 # IORap app launch prefetching using Perfetto traces and madvise
 ro.iorapd.enable=true
 
+# LMKD options
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+ro.lmk.use_psi=false
+
 # Media
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
