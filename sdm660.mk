@@ -292,6 +292,9 @@ PRODUCT_PACKAGES += \
     libavservices_minijail \
     libavservices_minijail.vendor
 
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/config.mk)
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
